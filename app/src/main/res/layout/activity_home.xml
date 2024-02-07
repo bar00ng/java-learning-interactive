@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@color/yellow"
+    android:orientation="vertical"
+    android:gravity="center">
+        <Button
+            android:id="@+id/openHuruf"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/poppins_bold_italic"
+            android:text="Belajar Huruf"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/openAngka"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/poppins_bold_italic"
+            android:text="Belajar Angka"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/openQuiz"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/poppins_bold_italic"
+            android:text="QUIZ"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <ImageButton
+            android:id="@+id/exitApp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/circle_button"
+            android:src="@drawable/baseline_close_24"
+            android:layout_marginTop="70dp"
+            android:padding="10dp"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold_italic"
+            android:text="KELUAR"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textAlignment="center" />
+
+</LinearLayout>
